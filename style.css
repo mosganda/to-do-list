@@ -1,0 +1,47 @@
+body{
+    background-color: #eeb422;
+}
+.feedback {
+    display: none;
+}
+#myInput {
+    border: 1px solid black;
+}
+#myInput:hover{
+    border: 2px dotted #ff8000;
+}
+.add {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.add:hover {
+    color: yellow;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+.complete-item {
+    background-color: #006400;
+    color:white;
+    padding: 3px;
+}
+.edit-item {
+    background-color: black;
+    color:white;
+    padding: 3px;
+}
+.delete-item {
+    background-color: red;
+    color:white;
+    padding: 3px;
+}
+.show {
+    display: block;
+}
+.achieved {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
